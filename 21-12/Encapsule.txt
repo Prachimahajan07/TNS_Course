@@ -1,0 +1,50 @@
+class Student
+{
+    private int rollno = 137;
+    private String sname = "Mahajan Prachi";
+    private char div='B';
+    private double cgpa=9.41;
+    
+
+    void setRollNo(int rollno){
+        this.rollno = rollno;
+    }
+
+    int getRollNo() {
+        return this.rollno;
+    }
+
+    void setName(String sname) {
+        this.sname = sname;
+    }
+
+    String getName() {
+        return this.sname;
+    }
+
+    
+
+}
+public class Encapsule {
+
+	public static void main(String[] args) {
+         Student s1 = new Student();
+        
+        // Using Public datamembers of class
+        // System.out.println("Roll No: " + s1.rollno);
+        // System.out.println("Name: " + s1.sname);
+        // System.out.println("Division: " + s1.div);
+        // System.out.println("Fees: " + s1.fees );
+        // System.out.println("CGPA: " + s1.cgpa);
+
+        // using Private datatypes
+        s1.setRollNo(131);
+        System.out.println("Roll NO: " + s1.getRollNo());
+
+        s1.setName("Mahajan Prachi");
+        System.out.println("Name: " + s1.getName());
+
+
+	}
+
+}
