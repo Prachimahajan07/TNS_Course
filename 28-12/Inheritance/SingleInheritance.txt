@@ -118,7 +118,7 @@ public class SingleInheritance {
 	public static void main(String args[])
 	{
 		
-		Student s1 = new Student("Shubham", 137, "Pune", 21, "Mumbai", 137, "GHRCEM", "Comp" );
+		Student s1 = new Student("Prachi", 131, "Pune", 21, "Pune", 131, "GHRCEM", "Comp" );
 		
 		System.out.print(s1);
 		
