@@ -104,9 +104,9 @@ class Student extends Person
 
 	@Override
 	public String toString() {
-		return "Student [rollno=" + rollno + ", collageName=" + collageName + ", branch=" + branch + ", getName()="
-				+ getName() + ", getId()=" + getId() + ", getAddress()=" + getAddress() + ", getAge()=" + getAge()
-				+ ", getBirthPlace()=" + getBirthPlace() + "]";
+		return "Student [rollno=" + rollno + ", collageName=" + collageName + ", branch=" + branch + ", Name="
+				+ getName() + ", Id=" + getId() + ", Address=" + getAddress() + ", Age=" + getAge()
+				+ ", BirthPlace=" + getBirthPlace() + "]";
 	}
 
 	
